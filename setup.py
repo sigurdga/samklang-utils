@@ -7,7 +7,7 @@ setup(
         author='Sigurd Gartmann',
         author_email='sigurdga-samklang@sigurdga.no',
         url='http://github.com/sigurdga/samklang-pages',
-        description='Pages module for Samklang',
+        description='Common utilities for Samklang',
         long_description=open('README.txt').read(),
         license="AGPL",
         packages = ['samklang_utils', 'samklang_utils.middleware'],
