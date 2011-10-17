@@ -2,7 +2,22 @@
 from distutils.core import setup
 
 setup(
-        name = 's7n-utils',
-        version = "1a1",
-        packages = ['s7n', 's7n.utils', 's7n.utils.middleware'],
+        name='samklang-utils',
+        version="0.1.0",
+        author='Sigurd Gartmann',
+        author_email='sigurdga-samklang@sigurdga.no',
+        url='http://github.com/sigurdga/samklang-pages',
+        description='Pages module for Samklang',
+        long_description=open('README.txt').read(),
+        license="AGPL",
+        packages = ['samklang_utils', 'samklang_utils.middleware'],
+        classifiers=[
+                "Development Status :: 3 - Alpha",
+                "License :: OSI Approved :: GNU Affero General Public License v3",
+                "Intended Audience :: Developers",
+                "Framework :: Django",
+                "Environment :: Web Environment",
+                "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+                ]
         )
+
