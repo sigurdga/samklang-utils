@@ -6,7 +6,7 @@ setup(
         version="0.1.0",
         author='Sigurd Gartmann',
         author_email='sigurdga-samklang@sigurdga.no',
-        url='http://github.com/sigurdga/samklang-pages',
+        url='http://github.com/sigurdga/samklang-utils',
         description='Common utilities for Samklang',
         long_description=open('README.txt').read(),
         license="AGPL",
