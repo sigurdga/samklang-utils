@@ -1,1 +1,2 @@
+v0.2.0, 2011-12-02 -- Add site middleware to hold request.site. Add common js and css files that will be used across Samklang.
 v0.1.0, 2011-10-17 -- Initial release.
