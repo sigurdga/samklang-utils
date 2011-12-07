@@ -1,0 +1,12 @@
+<div id="wmd-button-bar" class="wmd-panel"></div>
+{% include "floppyforms/textarea.html" %}
+<script>
+    $(document).ready(function() {
+        setup_wmd({
+            input: "id_content",
+            button_bar: "wmd-button-bar",
+            preview: "wmd-preview-area",
+            helpLink: "http://daringfireball.net/projects/markdown/syntax"
+        });
+    });
+</script>
