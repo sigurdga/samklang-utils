@@ -1,3 +1,5 @@
+v0.3.3, 2011-12-14 -- Use floppyforms to create form widgets, use maintained wmd, with some experimental changes for file uploading.
+v0.3.2, 2011-12-13 -- Incrementing version number to test setup.py
 v0.3.1, 2011-12-12 -- Add PermissionsManager that most Samklang modules will use.
 v0.3.0, 2011-12-11 -- Add MarkdownTextfield form widget, based on wmd and floppyforms.
 v0.2.0, 2011-12-02 -- Add site middleware to hold request.site. Add common js and css files that will be used across Samklang.
