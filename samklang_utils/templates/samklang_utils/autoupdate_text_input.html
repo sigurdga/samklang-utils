@@ -1,0 +1,10 @@
+{% include "floppyforms/input.html" %}
+<script>
+    $(document).ready(function() {
+        var autoupdate_title = document.id('{{ attrs.id }}_preview'),
+        textfield = document.id('{{ attrs.id }}');
+        textfield.addEvent('keyup', function(event) {
+            autoupdate_title.set('text', textfield.get('value'));
+        });
+    });
+</script>

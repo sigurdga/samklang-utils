@@ -2,7 +2,7 @@
 {% include "floppyforms/textarea.html" %}
 <script>
     $(document).ready(function() {
-        setup_wmd({
+        var WMD = setup_wmd({
             input: "{{ attrs.id }}",
             button_bar: "wmd-button-bar",
             preview: "wmd-preview-area",
