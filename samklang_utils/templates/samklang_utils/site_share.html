@@ -1,0 +1,7 @@
+{% load i18n %}
+
+<a href="https://twitter.com/share?url={{ site_url_encoded }}" target="_blank" title="{% trans "Share on Twitter" %}"><img src="/static/img/share.twitter.png" alt="{% trans "Share on Twitter" %}" /></a>
+<a href="http://www.facebook.com/sharer.php?u={{ site_url_encoded }}&amp;t={{ site_name_encoded }}" target="_blank" title="{% trans "Share on Facebook" %}"><img src="/static/img/share.facebook.png" alt="{% trans "Share on Facebook" %}" /></a>
+<a href="http://www.linkedin.com/shareArticle?mini=true&amp;url={{ site_url_encoded }}&amp;title={{ site_name_encoded }}" title="{% trans "Share on LinkedIn" %}"><img src="/static/img/share.linkedin.png" alt="{% trans "Share on LinkedIn" %}" /></a>
+<a href="http://www.delicious.com/save" onclick="window.open('http://www.delicious.com/save?v=5&amp;noui&amp;jump=close&amp;url={{ site_url_encoded }}&amp;title={{ site_name_encoded }}','delicious','toolbar=no,width=550,height=550'); return false;" title="{% trans "Save to Delicious" %}"><img src="/static/img/share.delicious.png" alt="{% trans "Save to Delicious" %}" /></a>
+<a href="mailto:?subject={{ site_name_encoded }}&amp;body={{ site_name_encoded }}" title="{% trans "Share on email" %}"><img src="/static/img/share.email.png" alt="{% trans "Share on email" %}" /></a></p>
