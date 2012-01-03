@@ -3,7 +3,7 @@ from distutils.core import setup
 
 setup(
         name='samklang-utils',
-        version="0.3.3",
+        version="0.3.4",
         author='Sigurd Gartmann',
         author_email='sigurdga-samklang@sigurdga.no',
         url='http://github.com/sigurdga/samklang-utils',

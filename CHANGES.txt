@@ -1,3 +1,4 @@
+v0.3.4, 2012-01-03 -- Add widget for sharing the site in social media.
 v0.3.3, 2011-12-14 -- Use floppyforms to create form widgets, use maintained wmd, with some experimental changes for file uploading.
 v0.3.2, 2011-12-13 -- Incrementing version number to test setup.py
 v0.3.1, 2011-12-12 -- Add PermissionsManager that most Samklang modules will use.
